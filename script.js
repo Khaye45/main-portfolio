@@ -31,7 +31,7 @@ closeIcon.addEventListener('click', () => {
 })
 
 const roles= {
-  en:["a web developper.", "multilingual.", " a teacher."],
+  en:["a web developer.", "multilingual.", " a teacher."],
   fr:["developeusse web", "traductrice", "professeur"]
 
 };
