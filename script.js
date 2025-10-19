@@ -31,7 +31,7 @@ closeIcon.addEventListener('click', () => {
 })
 
 const roles= {
-  en:["a web developer.", "multilingual.", " a teacher."],
+  en:["a web developer."],
   fr:["developeusse web", "traductrice", "professeur"]
 
 };
@@ -54,7 +54,7 @@ function showRole(){
   }
 }
 
-setInterval(showRole,3000);
+
 
 
 
@@ -76,4 +76,5 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbweaBg7uO0UWKuxkFIkdC
         form.reset()
       })
       .catch(error => console.error('Error!', error.message))
+
   })
